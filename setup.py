@@ -8,7 +8,7 @@ import sys
 import platform
 import subprocess
 
-from pkg_resources.extern.packaging import version
+from packaging import version
 from setuptools import setup, Extension, find_packages
 from setuptools.command.build_ext import build_ext
 
